@@ -3,85 +3,47 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KittyJk</title>
+    <title>KittyJk - Página Inicial</title>
     <style>
         body {
-            margin: 0;
-            padding: 0;
             background-color: #0d0b1e;
             color: #e5d4ff;
             font-family: 'Arial', sans-serif;
-        }
-
-        header {
-            background-color: #2b1a45;
-            padding: 20px;
             text-align: center;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.4);
+            padding: 50px;
         }
-
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
+        h1 {
+            font-size: 3em;
             color: #d9a5ff;
+            margin-bottom: 40px;
         }
-
-        nav {
+        .menu {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .menu a {
+            display: inline-block;
             background-color: #1a112e;
-            padding: 10px;
-            text-align: center;
-        }
-
-        nav a {
-            color: #c89cff;
+            color: #e5d4ff;
+            padding: 15px 25px;
+            border-radius: 15px;
             text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
+            font-size: 1.2em;
+            transition: background-color 0.3s;
         }
-
-        nav a:hover {
-            color: #ffffff;
-        }
-
-        section {
-            padding: 30px;
-            text-align: center;
-        }
-
-        footer {
-            background-color: #2b1a45;
-            padding: 15px;
-            text-align: center;
-            font-size: 0.9em;
-            color: #a67fe6;
+        .menu a:hover {
+            background-color: #301c4d;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>KittyJk</h1>
-        <p>Um refúgio dark e doce para amantes de BL, Jikook e animes</p>
-    </header>
-
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Sobre Mim</a>
-        <a href="#">Fanfics</a>
-        <a href="#">Mangás BL</a>
-        <a href="#">Animes</a>
-        <a href="#">Recomendações</a>
-        <a href="#">Personagens</a>
-        <a href="#">Contato</a>
-    </nav>
-
-    <section>
-        <h2>Bem-vinde ao mundo KittyJk</h2>
-        <p>Aqui você encontra fanfics Jikook, mangás BL intensos e um toque de romance sombrio com glitter roxo. Prepare-se para se perder nos sentimentos.</p>
-    </section>
-
-    <footer>
-        &copy; 2025 KittyJk — Feito com amor, dor e shipps eternos.
-    </footer>
+    <h1>Bem-vinda ao KittyJk</h1>
+    <div class="menu">
+        <a href="fanfics.html">Fanfics Jikook</a>
+        <a href="bls.html">Mangás BL</a>
+        <a href="bts.html">Zona BTS</a>
+    </div>
 </body>
 </html>
