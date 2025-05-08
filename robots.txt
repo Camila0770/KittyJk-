@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://camila0770.github.io/KittyJk-/sitemap.xml
